@@ -11,6 +11,7 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
+    /* Removed any background color here to allow our dynamic background to work */
 }
 
 .container {
@@ -65,10 +66,11 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.9); /* Changed to semi-transparent */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     transition: all 0.3s ease;
+    backdrop-filter: blur(5px); /* Added blur effect for better contrast */
 }
 
 #navbar .container {
@@ -111,13 +113,15 @@ section {
     height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../images/background.jpg');
-    background-size: cover;
-    background-position: center;
+    /* Removed background image and gradient to allow our dynamic background to show */
 }
 
 .home-content {
     text-align: center;
+    background: rgba(255, 255, 255, 0.1); /* Added slight transparency */
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(5px); /* Added blur for better readability */
 }
 
 .home-content h1 {
@@ -157,6 +161,10 @@ section {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    background: rgba(255, 255, 255, 0.1); /* Added slight transparency */
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(5px); /* Added blur for better readability */
 }
 
 .about-img {
@@ -200,6 +208,8 @@ section {
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1); /* Added slight transparency */
+    backdrop-filter: blur(5px); /* Added blur for better readability */
 }
 
 .project-card:hover {
@@ -242,6 +252,10 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background: rgba(255, 255, 255, 0.1); /* Added slight transparency */
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(5px); /* Added blur for better readability */
 }
 
 .skill-category {
@@ -259,7 +273,7 @@ section {
 
 /* Contact Section Styling */
 #contact {
-    background-color: #f9f9f9;
+    /* Removed background-color to allow our dynamic background to show */
     padding: 100px 0;
 }
 
@@ -272,11 +286,12 @@ section {
 .contact-info {
     flex: 1;
     min-width: 300px;
-    max-width: 30%; /* Changed from 35% to 30% */
-    background-color: white;
+    max-width: 30%;
+    background-color: rgba(255, 255, 255, 0.1); /* Changed to semi-transparent */
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); /* Added blur for better readability */
 }
 
 .contact-item {
@@ -307,10 +322,11 @@ section {
     flex: 2; 
     min-width: 500px;
     width: 70%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.1); /* Changed to semi-transparent */
     padding: 30px;
     border-radius: 70px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); /* Added blur for better readability */
 }
 
 .form-group {
@@ -325,6 +341,7 @@ section {
     border-radius: 5px;
     font-size: 1rem;
     transition: border-color 0.3s;
+    background-color: rgba(255, 255, 255, 0.8); /* Added semi-transparency */
 }
 
 .form-group input:focus,
@@ -381,7 +398,7 @@ section {
 /* Success message styling */
 .form-success-message {
     display: none;
-    background-color: #d4edda;
+    background-color: rgba(212, 237, 218, 0.9);
     color: #155724;
     padding: 15px;
     border-radius: 5px;
@@ -392,12 +409,21 @@ section {
 /* Error message styling */
 .form-error-message {
     display: none;
-    background-color: #f8d7da;
+    background-color: rgba(248, 215, 218, 0.9);
     color: #721c24;
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 20px;
     text-align: center;
+}
+
+/* Footer styling */
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Changed to semi-transparent */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    backdrop-filter: blur(5px); /* Added blur effect */
 }
 
 /* Responsive adjustments for contact section */
@@ -412,4 +438,4 @@ section {
     .contact-content {
         flex-direction: column;
     }
-} 
+}
