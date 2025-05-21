@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
 // Typing effect for the home page
 function typeEffect() {
     const typedTextElement = document.querySelector(".typed-text");
-    const textArray = ["Web Developer", "Designer", "Freelancer"];
+    const textArray = ["Web App Developer", "Designer", "Freelancer"];
     let textIndex = 0;
     let charIndex = 0;
     let isDeleting = false;

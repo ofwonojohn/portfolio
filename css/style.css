@@ -331,6 +331,7 @@ section {
 
 .form-group {
     margin-bottom: 20px;
+    width: 550px;
 }
 
 .form-group input,
@@ -366,7 +367,7 @@ section {
 }
 
 #contact-form .btn:hover {
-    background: #0056b3;
+    background: #c8cbce;
     transform: translateY(-3px);
 }
 
