@@ -6,6 +6,7 @@
     <title>My Portfolio - Home</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -13,17 +14,23 @@
     <div id="header-placeholder"></div>
 
     <!-- Home Section -->
-    <section id="home">
+    <section id="hero">
         <div class="container">
-            <div class="home-content">
+            <div class="hero-content">
                 <h1>Hello, I'm <span class="highlight">Ofwono John Paul</span></h1>
-                <h2>I'm a <span class="typed-text"></span></h2>
-                <div class="social-icons">
-                    <a href="https://github.com/ofwonojohn" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/john-ofwono-7ab852348/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://wa.me/YourPhoneNumberHere" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <h2>I'm a <span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+                <p class="hero-description">
+                    A passionate full-stack developer with expertise in building robust web applications, 
+                    creating intuitive user interfaces, and delivering end-to-end solutions. 
+                    I combine technical skills across multiple languages and frameworks with 
+                    a keen eye for design to create seamless digital experiences.
+                    From e-commerce platforms to cross-platform mobile apps, I transform ideas into 
+                    functional, elegant solutions that solve real-world problems.
+                </p>
+                <div class="hero-buttons">
+                    <a href="projects.html" class="btn btn-primary">View My Work</a>
+                    <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
                 </div>
-                <a href="contact.html" class="btn">Contact Me</a>
             </div>
         </div>
     </section>
@@ -33,5 +40,6 @@
 
     <script src="js/main.js"></script>
     <script src="js/background.js"></script>
+    <script src="js/typing.js"></script>
 </body>
 </html>
