@@ -6,78 +6,273 @@
     <title>My Portfolio - Projects</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav id="navbar">
-        <div class="container">
-            <h1 class="logo"><a href="index.html">My Portfolio</a></h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html" class="active">Projects</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
 
     <!-- Projects Section -->
     <section id="projects">
         <div class="container">
             <h2 class="section-title">My Projects</h2>
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <img src="images/project1.jpg" alt="Project 1">
-                    <div class="project-info">
-                        <h3>Project One</h3>
-                        <p>A brief description of the project and the technologies used.</p>
-                        <div class="project-links">
-                            <a href="#" class="btn">View Project</a>
-                            <a href="#" class="btn">Source Code</a>
+            
+            <div class="book-shelf">
+                <!-- Project 1: E-commerce Platform -->
+                <div class="book">
+                    <div class="book-cover">
+                        <div class="book-spine"></div>
+                        <div class="book-front">
+                            <h3>E-commerce Platform</h3>
+                            <div class="book-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <p class="book-tech">Django & Python</p>
+                        </div>
+                    </div>
+                    <div class="book-content">
+                        <div class="book-page">
+                            <h3>E-commerce Platform</h3>
+                            <div class="project-image">
+                                <img src="images/project1.jpg" alt="E-commerce Platform">
+                            </div>
+                            <div class="project-details">
+                                <p>Developed a comprehensive e-commerce platform using Django and Python, with features including:</p>
+                                <ul>
+                                    <li>Product listings with categories and search functionality</li>
+                                    <li>User authentication and profile management</li>
+                                    <li>Shopping cart management with session handling</li>
+                                    <li>Secure payment processing integration</li>
+                                    <li>Order tracking and history</li>
+                                </ul>
+                                <div class="tech-stack">
+                                    <span>Python</span>
+                                    <span>Django</span>
+                                    <span>PostgreSQL</span>
+                                    <span>HTML/CSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> View Project</a>
+                                    <a href="#" class="btn"><i class="fab fa-github"></i> Source Code</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <img src="images/project2.jpg" alt="Project 2">
-                    <div class="project-info">
-                        <h3>Project Two</h3>
-                        <p>A brief description of the project and the technologies used.</p>
-                        <div class="project-links">
-                            <a href="#" class="btn">View Project</a>
-                            <a href="#" class="btn">Source Code</a>
+                <!-- Project 2: Mobile Applications -->
+                <div class="book">
+                    <div class="book-cover">
+                        <div class="book-spine"></div>
+                        <div class="book-front">
+                            <h3>Mobile Applications</h3>
+                            <div class="book-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <p class="book-tech">Flutter & Kivy</p>
+                        </div>
+                    </div>
+                    <div class="book-content">
+                        <div class="book-page">
+                            <h3>Cross-Platform Mobile Apps</h3>
+                            <div class="project-image">
+                                <img src="images/project2.jpg" alt="Mobile Applications">
+                            </div>
+                            <div class="project-details">
+                                <p>Built cross-platform mobile applications using Flutter and Kivy, focusing on:</p>
+                                <ul>
+                                    <li>Dynamic data retrieval from RESTful APIs</li>
+                                    <li>User-friendly interfaces with smooth animations</li>
+                                    <li>API integration for real-time data updates</li>
+                                    <li>Offline data caching for improved user experience</li>
+                                    <li>Cross-platform compatibility (iOS and Android)</li>
+                                </ul>
+                                <div class="tech-stack">
+                                    <span>Flutter</span>
+                                    <span>Dart</span>
+                                    <span>Kivy</span>
+                                    <span>Python</span>
+                                    <span>Firebase</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> View Project</a>
+                                    <a href="#" class="btn"><i class="fab fa-github"></i> Source Code</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <img src="images/project3.jpg" alt="Project 3">
-                    <div class="project-info">
-                        <h3>Project Three</h3>
-                        <p>A brief description of the project and the technologies used.</p>
-                        <div class="project-links">
-                            <a href="#" class="btn">View Project</a>
-                            <a href="#" class="btn">Source Code</a>
+                <!-- Project 3: Web-based Systems -->
+                <div class="book">
+                    <div class="book-cover">
+                        <div class="book-spine"></div>
+                        <div class="book-front">
+                            <h3>Web-based Systems</h3>
+                            <div class="book-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <p class="book-tech">PHP & MySQL</p>
+                        </div>
+                    </div>
+                    <div class="book-content">
+                        <div class="book-page">
+                            <h3>Dynamic Web Systems</h3>
+                            <div class="project-image">
+                                <img src="images/project3.jpg" alt="Web-based Systems">
+                            </div>
+                            <div class="project-details">
+                                <p>Created web-based systems using PHP and MySQL, including:</p>
+                                <ul>
+                                    <li>Dynamic websites with real-time database connectivity</li>
+                                    <li>Custom admin panels for data management</li>
+                                    <li>User authentication and role-based access control</li>
+                                    <li>RESTful API development for third-party integration</li>
+                                    <li>Data visualization dashboards</li>
+                                </ul>
+                                <div class="tech-stack">
+                                    <span>PHP</span>
+                                    <span>MySQL</span>
+                                    <span>JavaScript</span>
+                                    <span>jQuery</span>
+                                    <span>AJAX</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> View Project</a>
+                                    <a href="#" class="btn"><i class="fab fa-github"></i> Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4: Embedded Systems -->
+                <div class="book">
+                    <div class="book-cover">
+                        <div class="book-spine"></div>
+                        <div class="book-front">
+                            <h3>Embedded Systems</h3>
+                            <div class="book-icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <p class="book-tech">C & Microcontrollers</p>
+                        </div>
+                    </div>
+                    <div class="book-content">
+                        <div class="book-page">
+                            <h3>Embedded Systems Projects</h3>
+                            <div class="project-image">
+                                <img src="images/project4.jpg" alt="Embedded Systems">
+                            </div>
+                            <div class="project-details">
+                                <p>Worked on embedded systems projects using C, developing:</p>
+                                <ul>
+                                    <li>Microcontroller-based systems for data collection</li>
+                                    <li>Sensor interfaces for environmental monitoring</li>
+                                    <li>Control systems for automated processes</li>
+                                    <li>Low-level hardware communication protocols</li>
+                                    <li>Energy-efficient embedded applications</li>
+                                </ul>
+                                <div class="tech-stack">
+                                    <span>C</span>
+                                    <span>Arduino</span>
+                                    <span>Raspberry Pi</span>
+                                    <span>I2C/SPI</span>
+                                    <span>Sensors</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> View Project</a>
+                                    <a href="#" class="btn"><i class="fab fa-github"></i> Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5: Computer Networking -->
+                <div class="book">
+                    <div class="book-cover">
+                        <div class="book-spine"></div>
+                        <div class="book-front">
+                            <h3>Computer Networking</h3>
+                            <div class="book-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <p class="book-tech">Network Configuration</p>
+                        </div>
+                    </div>
+                    <div class="book-content">
+                        <div class="book-page">
+                            <h3>Networking Projects</h3>
+                            <div class="project-image">
+                                <img src="images/project5.jpg" alt="Computer Networking">
+                            </div>
+                            <div class="project-details">
+                                <p>Explored computer networking, gaining hands-on experience in:</p>
+                                <ul>
+                                    <li>Network configuration and setup</li>
+                                    <li>Troubleshooting connectivity issues</li>
+                                    <li>Setting up small-scale networks</li>
+                                    <li>Network security implementation</li>
+                                    <li>Performance optimization</li>
+                                </ul>
+                                <div class="tech-stack">
+                                    <span>TCP/IP</span>
+                                    <span>Routing</span>
+                                    <span>Switching</span>
+                                    <span>Firewalls</span>
+                                    <span>VPN</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> View Project</a>
+                                    <a href="#" class="btn"><i class="fab fa-github"></i> Source Code</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            <div class="skills-summary">
+                <h3>Skills Developed</h3>
+                <p>Through these projects, I've developed:</p>
+                <ul>
+                    <li>Strong technical foundations across multiple platforms and languages</li>
+                    <li>Effective teamwork and collaboration skills</li>
+                    <li>The ability to learn and apply new technologies quickly</li>
+                    <li>Problem-solving and debugging expertise</li>
+                    <li>Project management and organization capabilities</li>
+                </ul>
+            </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
-        </div>
-    </footer>
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
 
     <script src="js/main.js"></script>
     <script src="js/background.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Book opening animation
+            const books = document.querySelectorAll('.book');
+            
+            books.forEach(book => {
+                book.addEventListener('click', function() {
+                    // Close all other books
+                    books.forEach(otherBook => {
+                        if (otherBook !== book && otherBook.classList.contains('open')) {
+                            otherBook.classList.remove('open');
+                        }
+                    });
+                    
+                    // Toggle current book
+                    this.classList.toggle('open');
+                });
+            });
+        });
+    </script>
 </body>
 </html>
