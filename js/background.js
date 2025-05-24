@@ -108,7 +108,7 @@ function createColorPicker() {
     colorPickerContainer.className = 'color-picker-container';
     
     const colors = [
-        { color: '#2c3e50', active: false }, //Dark blue
+        { color: '#2c3e50', active: true }, //Dark blue
         { color: '#27ae60', active: false }, //Green
         { color: '#8e44ad', active: false }, //Purple
         { color: '#e74c3c', active: false } //Red
